@@ -1,3 +1,5 @@
+// Gauss-Seidel Method 
+
 #include <stdio.h>
 #include <math.h>
 

@@ -1,3 +1,5 @@
+// 6. gauss-jacobi method
+
 #include <stdio.h>
 #include <math.h>
 

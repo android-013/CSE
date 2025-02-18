@@ -1,3 +1,5 @@
+// 4. Secant Method
+
 #include <stdio.h>
 #include <math.h>
 

@@ -1,3 +1,5 @@
+//1.Bisection Method (Recursive)
+
 #include <stdio.h>
 #include <math.h>
 

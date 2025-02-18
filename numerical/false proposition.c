@@ -1,3 +1,5 @@
+//2.False Position Method
+
 #include <stdio.h>
 #include <math.h>
 
@@ -19,7 +21,7 @@ void false_position(double a, double b, double tol) {
         // Compute the new point using False Position formula
         c = (a * f(b) - b * f(a)) / (f(b) - f(a));
 
-        printf("Iteration %d: a = %.6f, b = %.6f, c = %.6f, f(c) = %.6f\n", iter, a, b, c, f(c));
+        //printf("Iteration %d: a = %.6f, b = %.6f, c = %.6f, f(c) = %.6f\n", iter, a, b, c, f(c));
 
         if (fabs(f(c)) < tol)  // Stopping condition
             break;

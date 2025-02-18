@@ -1,3 +1,5 @@
+//3.Newton Raphson Method
+
 #include <stdio.h>
 #include <math.h>
 
@@ -26,7 +28,7 @@ void newton_raphson(double x0, double tol, int max_iter) {
 
         double x_new = x - fx / fpx;
 
-        printf("Iteration %d: x = %.6f, f(x) = %.6f\n", iter, x, fx);
+        //printf("Iteration %d: x = %.6f, f(x) = %.6f\n", iter, x, fx);
 
         if (fabs(x_new - x) < tol) {
             printf("\nRoot found at x = %.6f\n", x_new);

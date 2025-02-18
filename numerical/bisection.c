@@ -1,3 +1,5 @@
+//1.Bisection Method
+
 #include <stdio.h>
 #include <math.h>
 
@@ -18,7 +20,7 @@ void bisection(double a, double b, double tol) {
     while ((b - a) >= tol) {
         mid = (a + b) / 2;
 
-        printf("Iteration %d: a = %.6f, b = %.6f, mid = %.6f, f(mid) = %.6f\n", iter, a, b, mid, f(mid));
+        //printf("Iteration %d: a = %.6f, b = %.6f, mid = %.6f, f(mid) = %.6f\n", iter, a, b, mid, f(mid));
 
         if (f(mid) == 0.0) { // Exact root found
             break;
